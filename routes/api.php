@@ -14,7 +14,6 @@ use App\Http\Controllers\BlogPostController;
 |
 */
 
-
 Route::get('/blogpost', [BlogPostController::class, 'getAll']);
 Route::get('/blogpost/{id}', [BlogPostController::class, 'getOne']);
 Route::post('/blogpost', [BlogPostController::class, 'insertData']);

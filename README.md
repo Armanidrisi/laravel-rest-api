@@ -8,7 +8,6 @@ A simple RESTful API built with Laravel to create, read, update, and delete blog
 ![PHP Version](https://img.shields.io/badge/PHP-%3E%3D%207.2-8892BF.svg)
 ![Laravel Version](https://img.shields.io/badge/Laravel-10.x-orange.svg)
 
-
 ## Installation :package:
 
 1. Clone the repository to your local machine.
@@ -33,8 +32,8 @@ The request body for creating or updating a blog post should have the following 
 
 ```json
 {
-"status":true or false,
-"message":"Response Message"
+"status":boolean,
+"message":"string"
 }
 ```
 
